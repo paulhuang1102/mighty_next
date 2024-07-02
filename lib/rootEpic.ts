@@ -1,4 +1,4 @@
 import { combineEpics } from "redux-observable";
-import counterEpic from "./features/counter/counterEpic";
+import catEpic from "./features/cat/catEpic";
 
-export const rootEpic = combineEpics();
+export const rootEpic = combineEpics(catEpic);

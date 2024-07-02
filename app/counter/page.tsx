@@ -7,7 +7,7 @@ import {
   incrementByAmount,
 } from "../../lib/features/counter/counterSlice";
 
-const Home = () => {
+const CounterPage = () => {
   const dispatch = useDispatch();
   const value = useSelector((state: RootState) => state.counter.value);
 
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CounterPage;
